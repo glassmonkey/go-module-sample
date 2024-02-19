@@ -2,4 +2,7 @@
 
 package tool
 
-import _ "golang.org/x/tools"
+import (
+	_ "go.uber.org/mock/mockgen"
+	_ "golang.org/x/tools"
+)
